@@ -1,14 +1,12 @@
 import Header from "@/components/header";
-import Hero from "@/components/hero";
-import Features from "@/components/features";
+import About from "@/components/about";
 import Footer from "@/components/footer";
 
-export default function HomePage() {
+export default function AboutPage() {
     return (
         <>
             <Header />
-            <Hero />
-            <Features />
+            <About />
             <Footer />
         </>
     );
